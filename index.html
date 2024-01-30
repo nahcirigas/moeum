@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>홈페이지</title>
+    <link rel="stylesheet" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/easygpt/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <style>
+        /* Additional styles to ensure cards are equal height */
+        .card {
+            margin-bottom: 20px; /* Add some space between the cards */
+        }
+
+        /* Ensure images fill the card properly */
+        .card-img-top {
+            width: 100%;
+            height: 15vw; /* Adjust the height as needed */
+            object-fit: cover; /* This will cover the area without stretching the image */
+        }
+
+        /* Responsive column adjustments */
+        @media (max-width: 768px) {
+            .card-img-top {
+                height: 40vw; /* Larger height for smaller devices */
+            }
+        }
+        .card {
+    transition: transform 0.3s ease-in-out; /* 부드러운 변화 효과 */
+}
+
+.card:hover {
+    transform: scale(1.05); /* 카드가 5% 커지도록 설정 */
+}
+
+    </style>
+</head>
+    
+
+<body>
+    <!-- Hero Section -->
+    <div class="hero bg-primary text-white text-center py-5">
+        <h1>맛집 홈페이지</h1>
+        <h2>맛집 모음</h2>
+    </div>
+    <!-- 카드 섹션 시작 -->
+<div class="container">
+    <div class="row">
+        <!-- 카드 1 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAxMjZfMjMg%2FMDAxNjExNjYyMTcwNTQy.3cd6uXO9X46_BynQfLOk0jK5-Ih2Ri5eVLM_n4FAfpwg.RjMnjp6ihQze81cR-sDvfFjnY6ZQUer8-GdniICdxo4g.JPEG.swan_it%2FKakaoTalk_20210126_205433622_01.jpg&type=sc960_832" class="card-img-top" alt="맛집1 이미지">
+                <div class="card-body">
+                    <h5 class="card-title">코야</h5>
+                    <p class="card-text">돈까스</p>
+                    <a href="https://map.naver.com/p/entry/place/1846181922?lng=129.211816&lat=35.8644325&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh" class="btn btn-primary">자세히 보기</a>
+            </div>
+        </div>
+
+        <!-- 카드 2 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzExMjJfMTg0%2FMDAxNzAwNjE3OTUwNTE2.tXg9SvH7vvfBEF24sxzYpqGFi4hIt3cJEElWXGw-vDMg.oRCnqmgwxp6av1KTnrGYX2hbZQbLWIyUZh6nvdkjvXUg.JPEG.wjrnfms1013%2F20231111%25A3%25DF114548.jpg&type=sc960_832" class="card-img-top" alt="맛집2 이미지">
+                <div class="card-body">
+                    <h5 class="card-title">경주제면소</h5>
+                    <p class="card-text">밀면</p>
+                    <a href="https://map.naver.com/p/entry/place/1226245693?lng=129.20997084416464&lat=35.842326564678956&placePath=%2Fhome&searchType=place&c=15.00,0,0,0,dh" class="btn btn-primary">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 카드 3 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMzA0MDdfMTQg%2FMDAxNjgwODc3OTIxMDYz.y4C4ZFDW5oaY8SEPNhEH06UU0mQbwqnbb4zPv4D_6-gg._mu3nPUSf_iMa4AYgUOxrUndNiGtPSNtg1SlWgST2HAg.JPEG%2F8652AD98-13E2-46A4-BEC5-E1F2E75F7F8E.jpeg" class="card-img-top" alt="맛집3 이미지">
+                <div class="card-body">
+                    <h5 class="card-title">맛있는고기에솜씨를더하다</h5>
+                    <p class="card-text">돼지고기구이</p>
+                    <a href="https://map.naver.com/p/entry/place/1396322082?lng=129.2120166&lat=35.8642275&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh" class="btn btn-primary">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 카드 4 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyMjEyMDlfOSAg%2FMDAxNjcwNTQ2OTkwNjg4.j3bnjkgEuHjwWDgf8cLkt76nwoFaZjNxbD7tQafb9ocg.fu8qbP8b62lX2GquWKdPJmo-KzHB-UixcHinHrvJU4wg.JPEG%2F1670391140969.jpg" class="card-img-top" alt="맛집4 이미지">
+                <div class="card-body">
+                    <h5 class="card-title">곳간</h5>
+                    <p class="card-text">삼겹살</p>
+                    <a href="https://map.naver.com/p/entry/place/15249630?lng=129.22649800000855&lat=35.85608499999822&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh" class="btn btn-primary">자세히 보기</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 카드 섹션 끝 -->
+
+</body>
+
+</html>
